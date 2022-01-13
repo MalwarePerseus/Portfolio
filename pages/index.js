@@ -4,6 +4,11 @@ import ContainerBlock from '../components/ContainerBlock';
 
 export default function Home() {
   return (
-    <p>Apple</p>
-  )
+    <ContainerBlock
+      title="Deepak Singh | Developer, Designer, Writer, Speaker"
+      description="Deepak Singh is a software developer, designer, writer, speaker, and entrepreneur. Also known as MalwarePerseus, he is known for his CTF and Cyber Hunt wins."
+    >
+
+    </ContainerBlock>  
+  );
 }

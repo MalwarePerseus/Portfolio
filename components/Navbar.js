@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 export default function Navbar() {
     const router = useRouter();
-    const [theme, setTheme] = useTheme();
+    const {theme, setTheme} = useTheme();
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -18,7 +18,9 @@ export default function Navbar() {
                 <div className="">
                     <Link href="/">
                         <a>
-                            
+                        <h1 className="font-semibold text-xl dark:text-gray-100">
+                            Deepak Singh
+                        </h1> 
                         </a>
                     </Link>
                 </div>
