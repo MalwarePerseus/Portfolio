@@ -2,7 +2,7 @@ const userData = {
     githubUsername: "MalwarePerseus",
     name: "Deepak Singh",
     designation: "Full-Stack Developer",
-    avatarUrl: "/avatar.png",
+    avatarUrl: "https://cdn.discordapp.com/attachments/799578013338566706/931547479848157204/IMG_20210315_184303_690.jpg",
     email: "malwareperseus@gmail.com",
     phone: "+91 9793957136",
     address: "New Delhi, India.",
